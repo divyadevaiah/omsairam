@@ -1,5 +1,9 @@
 package examplePackage;
 
+/**
+ * @author d.thorira.devaiah
+ *
+ */
 public class UserBean {
 
 	private String username;
@@ -9,6 +13,9 @@ public class UserBean {
 	private boolean valid;
 	private Object userObject;
 	
+	/**
+	 * @return
+	 */
 	public String getUserName()
 	{
 		return username;
